@@ -272,7 +272,7 @@ let beachDoorPath = "./11joker-dance1-superJumbo.jpg";
 
 let spaceDoorPath = "./joker-joaqui.jpg"
 
-const botDoorPath = "./gl.png";
+const botDoorPath = "https://github.com/mohammadjavadnioctis/HideAndSeekForGulsah/blob/main/gl.png?raw=true";
 let openDoor1;
 let openDoor2;
 let openDoor3;
