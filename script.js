@@ -272,7 +272,7 @@ let beachDoorPath = "./11joker-dance1-superJumbo.jpg";
 
 let spaceDoorPath = "./joker-joaqui.jpg"
 
-const botDoorPath = "file:///C:/Users/Mj/Desktop/myprojectname/gl.png";
+const botDoorPath = "./gl.png";
 let openDoor1;
 let openDoor2;
 let openDoor3;
