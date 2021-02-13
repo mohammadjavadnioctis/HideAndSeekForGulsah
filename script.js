@@ -270,7 +270,14 @@ let failSoundEffect = './Epic Fail - Sound Effect [HD].webm'
 
 let beachDoorPath = "./11joker-dance1-superJumbo.jpg";
 
-let spaceDoorPath = "./joker-joaqui.jpg"
+let spaceDoorPath = "./joker-joaqui.jpg";
+
+
+function togglePopup(){
+	document.getElementById("popup-1").classList.toggle("active");
+  }
+
+togglePopup();
 
 const botDoorPath = "https://github.com/mohammadjavadnioctis/HideAndSeekForGulsah/blob/main/gl.png?raw=true";
 let openDoor1;
