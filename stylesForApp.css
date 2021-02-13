@@ -1,0 +1,201 @@
+
+
+
+
+
+
+body {
+    background-color: #010165;
+    margin: 0px;
+    width: 100%;
+  }
+  
+  .header{
+    margin-top: 10%;
+    text-align:center;
+    color:#ff0081;
+    
+  }
+
+  .logo{
+    width: 105px;
+    height: 103px;
+    display: inline-block;
+  }
+  
+  .title-row{
+    margin-top:42px;
+    margin-bottom:21px;
+    text-align:center;
+    
+  }
+  .instructions-title{
+    display:inline;
+    font-size:18px;
+    color:#ff0081;
+    font-family:'Work Sans';
+  }
+  
+  .instructions-row{
+    margin: 17px auto;
+    width: 46%;
+    border-spacing: 20px;
+  }
+  .instructions-number{
+    width: 2em;
+    padding-right:25px;
+    font-family:'Work Sans';
+    font-size:36px;
+    color:#00ffff;
+    
+  }
+  .instructions-text{
+      padding:10px;
+      font-family:'Work Sans';
+      font-size:14px;
+      color:#ffffff;
+    font-weight:bolder;
+    
+  }
+  .door-row{
+    text-align:center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    width: 50%;
+    
+  }
+  
+  .door-frame{
+    cursor:pointer;
+    padding:10px;
+    width:30%;
+    border: 10px solid #8439f6;
+    margin: 10px;
+    padding: 0px;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  .start-row{
+    display:none;
+    margin:auto;
+    width:120px;
+    font-family:'Work Sans';
+    background-color:#00ffff;
+    padding-top:18px;
+    padding-bottom: 18px; 
+    font-size:18px;
+    text-align:center;
+    color:#010165;
+    margin-bottom:21px;
+    cursor:pointer;
+    
+  }
+  
+  
+  
+  
+  
+  
+
+
+
+
+  @media only screen and (max-width: 374px) {
+    .instructions-row{
+      width: 100%;
+    }
+    .door-row{
+      width: 80%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .confetti-button.animate:before {
+    display: block;
+    animation: topBubbles ease-in-out 0.75s forwards;
+  }
+  
+  .confetti-button.animate:after {
+    display: block;
+    animation: bottomBubbles ease-in-out 0.75s forwards;
+  }
+  
+  @keyframes 
+  topBubbles {  0% {
+   background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+   50% {
+   background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+  }
+   100% {
+   background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+   background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+  }
+  
+  @keyframes 
+  bottomBubbles {  0% {
+   background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+  }
+   50% {
+   background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+  }
+   100% {
+   background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+   background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
